@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+import { Link } from 'react-router-dom';
 
 export default function Login() {
   const formRef = useRef(null);
@@ -41,7 +42,10 @@ export default function Login() {
           </button>
         </form>
         <p className="text-gray-400 mt-4 text-center">
-          Don't have an account? <a href="/signup" className="text-yellow-400 hover:underline">Sign Up</a>
+          Don't have an account?{' '}
+          <Link to="/signup" className="text-yellow-400 hover:underline">
+            Sign Up
+          </Link>
         </p>
       </div>
     </div>
