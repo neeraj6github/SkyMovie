@@ -20,13 +20,13 @@ export default function Footer() {
       className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-gray-300 py-8 px-4 border-t border-gray-700"
     >
       <div className="max-w-6xl mx-auto flex flex-col items-center space-y-4 text-center">
-        {/* Brand */}
+        
         <p className="text-sm tracking-wide">
           &copy; {new Date().getFullYear()}{' '}
           <span className="font-bold text-white">SkyMovie</span>. All rights reserved.
         </p>
 
-        {/* Nav Links */}
+        
         <div className="flex flex-wrap justify-center space-x-6 text-sm">
           <NavLink
             to="/about"
@@ -48,7 +48,7 @@ export default function Footer() {
           </NavLink>
         </div>
 
-        {/* Small Note */}
+        
         <p className="text-xs text-gray-400 tracking-wide">
           Crafted with ❤️ using React & Tailwind CSS
         </p>

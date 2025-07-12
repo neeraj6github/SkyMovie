@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom"; 
 import gsap from "gsap";
 
 export default function HeroSection() {
@@ -48,13 +49,13 @@ export default function HeroSection() {
       >
         Browse from a collection of 100+ top-rated Hollywood, Bollywood & South movies.
       </p>
-      <a
+      <Link
         ref={buttonRef}
-        href="/movies"
+        to="/movies" 
         className="inline-block bg-white text-purple-700 font-bold px-8 py-4 rounded-full shadow-lg hover:bg-purple-100 hover:scale-105 transition-transform duration-300"
       >
         🎟️ Explore Movies
-      </a>
+      </Link>
     </section>
   );
 }

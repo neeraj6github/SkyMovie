@@ -1,4 +1,4 @@
-// src/pages/About.jsx
+
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 
@@ -28,11 +28,11 @@ export default function About() {
   return (
     <div className="relative flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 overflow-hidden px-4 py-20">
       
-      {/* Background blobs */}
+      
       <div className="absolute top-0 left-0 w-72 h-72 bg-purple-500 opacity-20 rounded-full filter blur-3xl animate-pulse mix-blend-multiply"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-pink-500 opacity-20 rounded-full filter blur-3xl animate-pulse mix-blend-multiply delay-2000"></div>
       
-      {/* Glass card */}
+      
       <div 
         ref={cardRef}
         className="relative z-10 max-w-3xl backdrop-blur-md bg-white/10 border border-white/20 rounded-3xl p-10 text-center shadow-2xl"

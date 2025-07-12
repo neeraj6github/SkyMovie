@@ -36,12 +36,12 @@ export default function Navbar() {
         🎬 SkyMovie
       </h1>
 
-      {/* Hamburger Button */}
+      
       <button className="text-3xl md:hidden" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <HiX /> : <HiMenu />}
       </button>
 
-      {/* Nav Links */}
+      
       <div
         ref={linksRef}
         className={`${
@@ -68,7 +68,7 @@ export default function Navbar() {
           );
         })}
 
-        {/* Login / Signup Buttons */}
+        
         <div className="flex flex-col md:flex-row md:space-x-4 md:ml-4 mt-4 md:mt-0 items-center">
           <NavLink
             to="/login"

@@ -1,4 +1,4 @@
-// src/pages/Contact.jsx
+
 
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
