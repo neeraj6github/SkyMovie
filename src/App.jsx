@@ -9,6 +9,8 @@ import Movies from './pages/Movies';
 import MovieDetails from './pages/MovieDetails';
 import BookingConfirmation from './pages/BookingConfirmation';
 import NotFound from './pages/NotFound';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 
 export default function App() {
   return (
@@ -24,6 +26,8 @@ export default function App() {
           <Route path="/movies/:id" element={<MovieDetails />} />
           <Route path="/confirmation" element={<BookingConfirmation />} />
           <Route path="*" element={<NotFound />} />
+           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       </main>
       <Footer />
